@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcakes</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Cupcake List</h1>
+
+    <ul id="cupcake-list"></ul>
+
+    <form action="" id="new-cupcake-form">
+        <div>
+            <label for="form-flavor">Flavor:</label>
+            <input type="text" name="flavor" id="form-flavor">
+        </div>
+
+        <div>
+            <label for="form-size">Size:</label>
+            <input type="text" name="size" id="form-size">
+        </div>
+
+        <div>
+            <label for="form-rating">Rating:</label>
+            <input type="text" name="rating" id="form-rating">
+        </div>
+
+        <div>
+            <label for="form-image">Image:</label>
+            <input type="text" name="image" id="form-image">
+        </div>
+
+        <button class="btn">Add</button>
+    </form>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+    crossorigin="anonymous"></script>
+    <script src="/static/cupacakes.js"></script>
+
+</body>
+</html>
