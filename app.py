@@ -23,7 +23,7 @@ def home():
     return render_template("index.html")
 
 @app.route("/api/cupcakes")
-def get_cupcake():
+def get_cupcakes():
     """List all cupcakes."""
 
     cupcakes = [cupcake.serialize() for cupcake in Cupcake.query.all()]
